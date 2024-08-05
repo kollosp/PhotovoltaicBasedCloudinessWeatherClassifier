@@ -30,9 +30,8 @@
 └── requirements.txt
 ```
 
-Datasets are stored in `datasets` directory. `dataset_annotated.csv` is an extended file that contains experts annotations, while the `dataset.csv` is an original file. 
-
 # Install & Run
+
 Create python virtual environement and install libs.
 ```python
 $ python -m venv .venv
@@ -44,3 +43,9 @@ There are two scripts provided in the project root `perform_experiments.py` and 
 (.venv) $ python perform_experiments.py
 (.venv) $ python generate_paper_images.py
 ```
+
+`generate_paper_images.py` generates pdf file, that contains all images used in the article. The file is saved under the `cm/` directory.
+
+# Datasets
+
+Datasets are stored in `datasets` directory. `dataset_annotated.csv` is an extended file that contains experts annotations, while the `dataset.csv` is an original file. 
