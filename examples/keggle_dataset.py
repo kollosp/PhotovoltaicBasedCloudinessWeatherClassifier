@@ -9,9 +9,14 @@ import matplotlib.dates as mdates
 dir_path = os.path.dirname(os.path.realpath(__file__))
 df = pd.read_csv(os.path.join(dir_path, "../datasets/dataset.csv"), header=0, sep=",", index_col=0)
 df.index = pd.to_datetime(df.index, unit='s')
+print(df.head())
+print(df.tail())
+print(df.describe())
 
 unique_labels = np.unique(df["HumanWeather"].astype(int))
 df = df.iloc[0:288*4]
+
+
 
 fig, ax = plt.subplots(1)
 

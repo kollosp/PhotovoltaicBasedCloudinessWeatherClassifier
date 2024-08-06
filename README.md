@@ -72,5 +72,4 @@ in any purpose you want, however, the authors and source must be cited.
 
 # More
 
-[Dataset on keggle]() \
-[Model on keggle]()
+[Dataset on kaggle](https://www.kaggle.com/datasets/kollosp/photovoltaic-dataset-with-weather-classification/data) 
